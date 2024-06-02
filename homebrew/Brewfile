@@ -1,0 +1,6 @@
+tap "homebrew/bundle"
+brew "fish"
+brew "git"
+cask "git-credential-manager"
+cask "rectangle"
+cask "spotify"
