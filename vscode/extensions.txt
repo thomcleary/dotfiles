@@ -9,7 +9,6 @@ mikestead.dotenv
 orta.vscode-twoslash-queries
 pkief.material-icon-theme
 pomdtr.excalidraw-editor
-redhat.vscode-yaml
 ritwickdey.liveserver
 roblourens.vscode-nand2tetris-hdl
 svelte.svelte-vscode
