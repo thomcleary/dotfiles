@@ -3,5 +3,10 @@
   {
     "key": "cmd+d cmd+k",
     "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
   }
 ]
