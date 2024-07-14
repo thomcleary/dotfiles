@@ -1,3 +1,6 @@
+# Starship Prompt
+eval "$(starship init bash)"
+
 # Change umask to make directory sharing easier
 umask 0002
 
