@@ -3,6 +3,8 @@
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.accessibilitySupport": "off",
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "solid",
   "editor.fontFamily": "'FiraCode Nerd Font', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
@@ -28,6 +30,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.host": "127.0.0.1",
   "prettier.printWidth": 120,
+  "redhat.telemetry.enabled": false,
   "svelte.enable-ts-plugin": true,
   "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
   "terminal.integrated.fontSize": 14,
@@ -40,6 +43,13 @@
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.colorCustomizations": {
+    "[One Dark Pro Darker]": {
+      "editorCursor.background": "#1F2227",
+      "editorCursor.foreground": "#A3A9B5"
+    }
+  },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
