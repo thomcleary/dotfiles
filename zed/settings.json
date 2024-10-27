@@ -8,7 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "assistant": {
-    "version": "1",
+    "version": "2",
     "button": false
   },
   "base_keymap": "VSCode",
@@ -20,8 +20,14 @@
   "collaboration_panel": {
     "button": false
   },
+  "experimental.theme_overrides": {
+    "editor.document_highlight.read_background": "#74ade83d"
+  },
   "features": {
     "inline_completion_provider": "none"
+  },
+  "file_types": {
+    "YAML": ["clangd"]
   },
   "format_on_save": "on",
   "git": {
