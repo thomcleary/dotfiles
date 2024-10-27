@@ -20,8 +20,11 @@
   "collaboration_panel": {
     "button": false
   },
+  "cursor_blink": false,
+  "cursor_shape": "block",
   "experimental.theme_overrides": {
-    "editor.document_highlight.read_background": "#74ade83d"
+    "editor.document_highlight.read_background": "#74ade83d",
+    "players": [{ "cursor": "#a4a9b4" }]
   },
   "features": {
     "inline_completion_provider": "none"
