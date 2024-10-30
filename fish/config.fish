@@ -5,9 +5,11 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+# Shell variables
+set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+alias cat='bat'
+
 # Fish syntax highlighting
-# https://starship.rs/faq/#what-is-the-configuration-used-in-the-demo-gif
-# https://github.com/matchai/dotfiles/blob/b6c6a701d0af8d145a8370288c00bb9f0648b5c2/.config/fish/config.fish
 set -g fish_color_autosuggestion '555'  'brblack'
 set -g fish_color_cancel -r
 set -g fish_color_command --bold
