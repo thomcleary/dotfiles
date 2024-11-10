@@ -1,7 +1,6 @@
 tap "homebrew/bundle"
 brew "bash"
 brew "bat"
-brew "bats-core"
 brew "fish"
 brew "fnm"
 brew "git"

@@ -9,18 +9,22 @@
 {
   "assistant": {
     "version": "2",
-    "button": false
+    "button": false,
+    "enabled": false,
+    "dock": "left"
   },
   "base_keymap": "VSCode",
   "buffer_font_family": "FiraCode Nerd Font Mono",
   "buffer_font_size": 14,
   "chat_panel": {
-    "button": false
+    "button": false,
+    "dock": "left"
   },
   "collaboration_panel": {
-    "button": false
+    "button": false,
+    "dock": "left"
   },
-  "cursor_blink": false,
+  "cursor_blink": true,
   "cursor_shape": "block",
   "experimental.theme_overrides": {
     "editor.document_highlight.read_background": "#74ade83d",
