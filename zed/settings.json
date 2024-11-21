@@ -15,6 +15,9 @@
   },
   "base_keymap": "VSCode",
   "buffer_font_family": "FiraCode Nerd Font Mono",
+  "buffer_font_features": {
+    "calt": false
+  },
   "buffer_font_size": 14,
   "chat_panel": {
     "button": false,
@@ -34,7 +37,7 @@
     "inline_completion_provider": "none"
   },
   "file_types": {
-    "YAML": ["clangd"]
+    "YAML": [".clangd", ".clang-format"]
   },
   "format_on_save": "on",
   "git": {
@@ -49,6 +52,7 @@
   },
   "languages": {
     "C": {
+      "extend_comment_on_newline": false,
       "formatter": "language_server",
       "tab_size": 2
     }
