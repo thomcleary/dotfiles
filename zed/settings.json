@@ -15,12 +15,13 @@
   },
   "base_keymap": "VSCode",
   "buffer_font_family": "FiraCode Nerd Font Mono",
+  // "buffer_font_family": "Berkeley Mono Trial",
   "buffer_font_features": {
     "calt": false
   },
   "buffer_font_size": 14,
   "chat_panel": {
-    "button": false,
+    "button": "never",
     "dock": "left"
   },
   "collaboration_panel": {
@@ -34,7 +35,7 @@
     "players": [{ "cursor": "#a4a9b4" }]
   },
   "features": {
-    "inline_completion_provider": "none"
+    "edit_prediction_provider": "none"
   },
   "file_types": {
     "YAML": [".clangd", ".clang-format"]
@@ -55,6 +56,22 @@
       "extend_comment_on_newline": false,
       "formatter": "language_server",
       "tab_size": 2
+    },
+    "Python": {
+      // "language_servers": ["ruff"]
+      // Or, if there are other language servers you want to use with Python
+      "language_servers": ["pyright", "ruff"],
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "language_server": {
+            "name": "ruff"
+          }
+        }
+      ]
+    },
+    "TypeScript": {
+      "extend_comment_on_newline": false
     }
   },
   "lsp": {
