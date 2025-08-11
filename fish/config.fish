@@ -5,9 +5,11 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+# Haskell
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /Users/thomascleary/.ghcup/bin $PATH # ghcup-env
+
 # Shell variables
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
-alias cat='bat'
 
 # Fish syntax highlighting
 set -g fish_color_autosuggestion '555'  'brblack'
@@ -33,3 +35,4 @@ set -g fish_color_user brgreen
 set -g fish_color_valid_path --underline
 
 starship init fish | source
+

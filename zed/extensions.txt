@@ -1,5 +1,11 @@
+assembly
+deno
+dockerfile
 fish
 git-firefly
+haskell
 html
+java
 make
 one-dark-pro
+ruff
